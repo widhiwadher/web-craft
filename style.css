@@ -6,6 +6,7 @@
 
 #part-1 {
     background:linear-gradient(to right, #000D36 ,#004E87 , #00E2EB);
+    min-height: 90vh;
 }
 
 nav {
@@ -42,12 +43,17 @@ nav {
     font-size: 25px
 }
 
+.negative {
+    margin-top: -80px!important;
+}
 /* -------- section-2 ---------- */
 
 
+/* 
 #part-2 {
-    background: #F9F9F9;
-}
+    background: rgb(238, 235, 235);
+}  */
+
 .bg-1{
 background-image: url(img/wave-3.png); 
 background-position: center;
@@ -55,17 +61,18 @@ border-radius: 5px;
 }
 
 .head-2 {
+    font-weight: 640;
   font-size: 50px;
-  color: #DA3AC6
+  color: #b302c3;
  text-align: center;
- -webkit-background-clip: text;
+ 
 }
 
 .head-3 {
     color: #3F3F3F;
-   
     margin: auto;
 }
+
 .text-2 {
 background: #F8F8F9;
 margin: auto;
@@ -74,19 +81,43 @@ letter-spacing: 1px;
 }
 
 .btn-1 {
+    background-image: linear-gradient(to bottom right,#b43de7 , #f05ab4);
+    color: rgb(245, 245, 245)!important;
+    text-transform: uppercase;
+    font-weight: 500!important;
+    font-size: small!important;
+}
+
+.btn-1:hover {
     background-image: linear-gradient(to bottom right,#A41EDF , #FC4AB5);
-    color: white!important;
+    
+    color: rgb(255, 255, 255)!important;
   
-
 }
 
-.tdi_70 {
-    margin-top: -70px !important;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: stretch;
+/* ---------section-3 -----part-3----- */
+#part-3 .container {
+     text-align: center;
 }
 
+.bg-icon {
+    background-image: url(img/box-4.png);
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+}
 
+.word-press {
+   color: #207195; 
+}
+.mobile {
+   color: #0C387E;
+}
+.e-com {
+ color: #c23b95de 
+}
+.html-5 {
+  color: #DE4B25; 
+}

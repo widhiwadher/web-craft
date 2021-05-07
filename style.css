@@ -8,17 +8,22 @@
  *{
    margin: 0;
    padding: 0;
-   box-sizing: border-box;  
-   
+   box-sizing: border-box;    
  }
-
-#part-1 {
-    background:linear-gradient(to right, #000D36 ,#004E87 , #02b5bb);
-    min-height: 90vh;
+.bg-white {
+    background: rgb(238, 236, 236);
 }
 
+#part-1 {
+    /* background:linear-gradient(to right, #000D36 ,#004E87 , #02b5bb); */
+    min-height: 88vh;
+    background-image: url(img/wave-81840.jpg);
+   
+}
+
+
 nav {
-    background:linear-gradient(to right, #000D36 ,#004E87 , #02b5bb);
+    background:linear-gradient(to right, #081123 , #37113F);
     color: white!important;
     width: 100%;
     height: 100px;
@@ -42,6 +47,13 @@ transition: 300ms;
     color: rgb(148, 2, 70)!important;
 }
 
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu a {
+    color: black!important;
+}
 .heading {
   
     justify-content: center;
@@ -136,6 +148,7 @@ letter-spacing: 1px;
     max-width: 100%;
     height: auto;
 }
+
 
 .word-press {
    color: #207195; 

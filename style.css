@@ -1,19 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+ .logo {
+     font-family: "Balsamiq Sans",sans-serif;
+     font-size: 40px!important;
+ }
  *{
    margin: 0;
    padding: 0;
    box-sizing: border-box;  
+   
  }
 
 #part-1 {
-    background:linear-gradient(to right, #000D36 ,#004E87 , #00E2EB);
+    background:linear-gradient(to right, #000D36 ,#004E87 , #02b5bb);
     min-height: 90vh;
 }
 
 nav {
-    /* background:linear-gradient(to right, #12B3c5 ,#525484 , #4B4B66);   */
-    background:linear-gradient(to right, #00E2EB,#004E87 );
+    background:linear-gradient(to right, #000D36 ,#004E87 , #02b5bb);
     color: white!important;
+    width: 100%;
+    height: 100px;
+    transition: .5s;
+    padding: 10px 70px;
+
 }
+.bgc {
+    background: rgb(0, 0, 0,.7);
+    padding: 10px 70px 
+}
+
+
+nav li a:hover{
+border-bottom: 2px solid #ffffff;
+transition: 300ms;
+}
+
+.active {
+    border-color: rgb(219, 41, 124)!important;
+    color: rgb(148, 2, 70)!important;
+}
+
 .heading {
   
     justify-content: center;
@@ -49,8 +77,8 @@ nav {
 /* -------- section-2 ---------- */
 
 
-/* 
-#part-2 {
+
+/* #part-2 {
     background: rgb(238, 235, 235);
 }  */
 

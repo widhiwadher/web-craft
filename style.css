@@ -16,7 +16,7 @@
 
 #part-1 {
     /* background:linear-gradient(to right, #000D36 ,#004E87 , #02b5bb); */
-    min-height: 88vh;
+    min-height: 90vh;
     background-image: url(img/wave-81840.jpg);
    
 }
@@ -28,12 +28,12 @@ nav {
     width: 100%;
     height: 100px;
     transition: .5s;
-    padding: 10px 70px;
+    padding: 7px 70px;
 
 }
 .bgc {
     background: rgb(0, 0, 0,.7);
-    padding: 10px 70px 
+    padding: 10px 50px 
 }
 
 

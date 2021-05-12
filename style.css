@@ -4,7 +4,7 @@
 .fa-chevron-up {
     position: fixed;
     bottom: 40px;
-    right: 50px;
+    right: 30px;
     font-size: 40px;
     color: rgb(255, 113, 243);
     border-radius: 48%;
@@ -44,7 +44,7 @@ ul {
 
 #part-1 {
     /* background:linear-gradient(to right, #000D36 ,#004E87 , #02b5bb); */
-    min-height: 90vh;
+    min-height: 80vh;
     background-image: url(img/wave-81840.jpg);
    
 }
@@ -75,7 +75,7 @@ transition: 300ms;
 
 .active {
     border-color: rgb(219, 41, 124)!important;
-    color: rgb(148, 2, 70)!important;
+    color: rgb(197, 56, 122)!important;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -115,7 +115,7 @@ transition: 300ms;
 }
 
 .negative {
-    margin-top: -80px!important;
+    margin-top: -97px!important;
 }
 /* -------- section-2 ---------- */
 
@@ -171,6 +171,21 @@ letter-spacing: 1px;
      text-align: center;
 }
 
+.negative2 {
+    margin-top: -150px!important;
+}
+
+.big-height {
+    background: #F7F7F7;
+    min-height: 105vh;
+}
+
+.who-p {
+    width: 70%;
+     margin: auto;
+     font-weight: 500;
+}
+
 .bg-icon {
     background-image: url(img/box-4.png);
     background-position: center;
@@ -180,19 +195,6 @@ letter-spacing: 1px;
     height: auto;
 }
 
-
-.word-press {
-   color: #207195; 
-}
-.mobile {
-   color: #0C387E;
-}
-.e-com {
- color: #c23b95de 
-}
-.html-5 {
-  color: #DE4B25; 
-}
 
 /* -------footer---secttion----- */
 #foot {
@@ -244,4 +246,25 @@ letter-spacing: 1px;
     bottom: 0!important;
      margin: auto;
     width: 100%; 
+}
+
+/* ---------Why choose us------- */
+.pink {
+    color: #F56BF1;
+   
+}
+
+
+
+/* ------------About us--------- */
+.bg-img {
+    position: relative;
+}
+
+.head-abt {
+    font-size: 60px;
+    color: rgb(245, 245, 245);
+    text-transform:uppercase;
+    z-index: 999;
+    position: absolute;
 }

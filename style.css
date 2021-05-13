@@ -254,7 +254,14 @@ letter-spacing: 1px;
    
 }
 
+/* ------------contact us--------- */
 
+.heading-cont {
+    text-transform: uppercase;
+   font-weight: 600;
+    font-size: 49px;
+    color: #5f5b5e;
+}
 
 /* ------------About us--------- */
 .bg-img {
@@ -262,9 +269,16 @@ letter-spacing: 1px;
 }
 
 .head-abt {
-    font-size: 60px;
+    top:25%;
+    left:40%;
     color: rgb(245, 245, 245);
-    text-transform:uppercase;
     z-index: 999;
     position: absolute;
+}
+
+.heading-abt {
+    text-transform: uppercase;
+   font-weight: 600;
+    font-size: 45px;
+    color: #5f5b5e;
 }

@@ -120,7 +120,7 @@
            
             <div class="row justify-content-center gap-5 mt-5 mb-3 p-3" style="text-align: center; ">
                 <div class="p-3 bg-body rounded ">
-                    <h1 class="head-2 text-center mt-4">what do we offer!</h1>
+                    <h1 class="head-2 text-center">What do we offer!</h1>
                 </div>
     
                 <div class="col-md-4 col-sm-5 col-lg-2 shadow p-5  mt-5  bg-body rounded  footer"
@@ -166,7 +166,7 @@
     </section>
 
     <div class="container">
-        <div data-aos="fade-down" data-aos-duration="1000" class="shadow p-3 mb-4 bg-body rounded negative2">
+        <div data-aos="fade-down" data-aos-duration="1000" class="shadow p-3 mt-2 mb-4 bg-body rounded negative2">
             <h1 class="head-2 mt-4">Why Choose Us</h1>
             <div class="row mt-4">
                 <div class="col-sm-6 text-center">
@@ -199,7 +199,7 @@
         </div>
 
     </div>
-    <div class="container-fluid mt-5 shadow p-3 bg-body rounded negative2">
+    <div class="container-fluid mt-5 shadow p-3 bg-body rounded negative2" style="background: #e2dddd;">
         <div class="intrested text-center justify-content-center">
             <h3 class="head-2"><strong>Interested</strong>&nbsp; in our services ?</h3>
             <h1 class="heading-cont mt-3">contact us</h1>
@@ -207,7 +207,7 @@
 
         <div class="container text-center">
             <div class="row">
-                <div class="mt-5 col-md-6 col-lg-6 col-sm-12">
+                <div class="mt-5 col-md-6 col-lg-6 col-sm-12" >
                     <div class="form-floating mb-3">
                         <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                         <label for="floatingInput">Email address</label>
@@ -229,18 +229,22 @@
                         <button class="btn btn-1" type="button">Submit <span>&nbsp;<i
                             class="fas fa-angle-right"></i></span></button>
                     </div>
+                    <form action="?" method="POST">
+                        <div class="g-recaptcha" data-sitekey="6LfYwdQaAAAAAPt-q9cO4UyQ3VcQeUv1vNPhqbYB"></div>
+                        <br/>
+                        <input type="submit" value="Submit">
+                      </form>
+
                 </div>
 
-              
+                <div class="mt-5 col-md-6 col-lg-6 col-sm-12">
+                    <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15551.930688522612!2d77.62947938497007!3d12.972960013751264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae16a418770391%3A0xb50f46b826501036!2sIndiranagar%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1620540683110!5m2!1sen!2sin"
+                    frameborder="0" class="embed-responsive-item" width="100%" height="400px" style= "border: 0; padding: 0; margin: 0;"></iframe>
+                </div>
             </div>
         </div>
     </div>
-
-
-    <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15551.930688522612!2d77.62947938497007!3d12.972960013751264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae16a418770391%3A0xb50f46b826501036!2sIndiranagar%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1620540683110!5m2!1sen!2sin"
-    frameborder="0" class="embed-responsive-item" width="100%" height="400px" style= "border: 0; padding: 0; margin: 0;"></iframe>
-
 
     <footer id="foot">
         <div class="container-fluid" style="background: #060B2A;">
@@ -320,18 +324,7 @@
 
         });
 
-
-        Email.send({
-    Host : "smtp.yourisp.com",
-    Username : "username",
-    Password : "password",
-    To : 'them@website.com',
-    From : "you@isp.com",
-    Subject : "This is the subject",
-    Body : "And this is the body"
-}).then(
-  message => alert(message)
-);
+  
     </script>
 </body>
 

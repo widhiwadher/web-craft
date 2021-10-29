@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+ .logo {
+     font-family: "Balsamiq Sans",sans-serif;
+     font-size: 40px!important;
+ }
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;    
+ }
+.bg-white {
+    background: rgb(238, 236, 236);
+}
+
+#part-1 {
+    /* background:linear-gradient(to right, #000D36 ,#004E87 , #02b5bb); */
+    min-height: 88vh;
+    background-image: url(img/wave-81840.jpg);
+   
+}
+
+
+nav {
+    background:linear-gradient(to right, #081123 , #37113F);
+    color: white!important;
+    width: 100%;
+    height: 100px;
+    transition: .5s;
+    padding: 6px 80px;
+
+}
+.bgc {
+    background: rgb(0, 0, 0,.7);
+    padding: 8px 70px 
+}
+ 
+nav li a {
+ font-size:18px;
+}
+
+nav li a:hover{
+border-bottom: 2px solid #ffffff;
+transition: 300ms;
+}
+
+.active {
+    border-color: rgb(219, 41, 124)!important;
+    color: rgb(148, 2, 70)!important;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu a {
+    color: black!important;
+}
+.heading {
+  
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: #FCFCFD;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+
+
+.text {
+    top: 20px;
+    bottom: 0;
+    margin: auto;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+.heading-2 {
+    color: rgb(144,145,152);
+    color: #eb7dcf; 
+    font-size: 30px
+}
+
+.heading-3 {
+    color: rgb(162, 165, 175);
+    font-size: 25px
+}
+
+.negative {
+    margin-top: -80px!important;
+}
+/* -------- section-2 ---------- */
+
+
+
+/* #part-2 {
+    background: rgb(238, 235, 235);
+}  */
+
+.bg-1{
+background-image: url(img/wave-3.png); 
+background-position: center;
+border-radius: 5px;
+}
+
+.head-2 {
+    font-weight: 640;
+  font-size: 50px;
+  color: #b302c3;
+ text-align: center;
+ 
+}
+
+.head-3 {
+    color: #3F3F3F;
+    margin: auto;
+}
+
+.text-2 {
+background: #F8F8F9;
+margin: auto;
+justify-content: center;
+letter-spacing: 1px;
+}
+
+.btn-1 {
+    background-image: linear-gradient(to bottom right,#b43de7 , #f05ab4);
+    color: rgb(245, 245, 245)!important;
+    text-transform: uppercase;
+    font-weight: 500!important;
+    font-size: small!important;
+}
+
+.btn-1:hover {
+    background-image: linear-gradient(to bottom right,#A41EDF , #FC4AB5);
+    
+    color: rgb(255, 255, 255)!important;
+  
+}
+
+/* ---------section-3 -----part-3----- */
+#part-3 .container {
+     text-align: center;
+}
+
+.bg-icon {
+    background-image: url(img/box-4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.word-press {
+   color: #207195; 
+}
+.mobile {
+   color: #0C387E;
+}
+.e-com {
+ color: #c23b95de 
+}
+.html-5 {
+  color: #DE4B25; 
+}
